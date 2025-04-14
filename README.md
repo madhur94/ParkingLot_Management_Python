@@ -130,11 +130,6 @@ By taking each (filtered and blurred) rectangle, determining the area, and doing
 
 The code for drawing the rectangles and motion detection is pretty generic. It's seperated out into classes and should be reusable outside of the context of a parking lot. I have tested this with two different parking lot videos and it worked pretty well. I plan to make other improvements and try to seperate OpenCV references to make code easier to test. I'm open to ideas and feedback.
 
-Check out [the code](https://github.com/olgarose/ParkingLot) for more!
 
-## Future work
-- Hook up a webcam to a Raspberry Pi and have live parking monitoring at home!
-- [Transform parking lot video to have overview perspective](http://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_geometric_transformations/py_geometric_transformations.html) (for clearer rectangles)
-- Experiment with [HOG descriptors](https://gurus.pyimagesearch.com/lesson-sample-histogram-of-oriented-gradients-and-car-logo-recognition/) to detect people or other objects of interest
 
 
